@@ -1,15 +1,14 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:clean_arch/core/error/failures.dart';
-import 'package:clean_arch/core/usecases/usecase.dart';
-import 'package:clean_arch/features/number_trivia/domain/entities/number_trivia.dart';
 import 'package:dartz/dartz.dart';
-import 'package:flutter/services.dart';
 import 'package:meta/meta.dart';
 
 import './bloc.dart';
+import '../../../../core/error/failures.dart';
+import '../../../../core/usecases/usecase.dart';
 import '../../../../core/utils/input_converter.dart';
+import '../../domain/entities/number_trivia.dart';
 import '../../domain/usecases/get_concreate_number_trivia.dart';
 import '../../domain/usecases/get_random_number_trivia.dart';
 
